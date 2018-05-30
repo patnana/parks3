@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 @Table(name="emp_hib")
 public class Employee {
-	@Id // annotation
+	@Id // annotation 1
 	private int empid;
 	@Column(name = "emp_name")
 	private String empname;
